@@ -1,0 +1,17 @@
+	git init- make a repo
+git clone "URL"   if I clone, I must not init !            git clone --branch <branchname> url
+	git status - shows element in repo folder
+	git rm <file name/file path/>// remove file, then need to commit and push
+	git branch- shows selected branch
+	git checkout -b <name> create new branch
+
+git add <file name/file path/> || git add -A add all files
+git commit -m"write message here"
+:wq- write after commit, safe and out
+	git status- shows changes
+	git log- shows commits   
+push - which repo(origin), which branch
+git pull- download changes that anyone else maked
+git merge which in which
+>ctrl+c
+
