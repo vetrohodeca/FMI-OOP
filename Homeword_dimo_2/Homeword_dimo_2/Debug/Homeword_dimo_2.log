@@ -1,0 +1,7 @@
+﻿  Source.cpp
+c:\users\alex\source\repos\homeword_dimo_2\homeword_dimo_2\source.cpp(16): warning C4244: 'return': conversion from 'const double' to 'int', possible loss of data
+c:\users\alex\source\repos\homeword_dimo_2\homeword_dimo_2\source.cpp(65): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+c:\users\alex\source\repos\homeword_dimo_2\homeword_dimo_2\source.cpp(66): error C2664: 'size_t strlen(const char *)': cannot convert argument 1 from 'char' to 'const char *'
+  c:\users\alex\source\repos\homeword_dimo_2\homeword_dimo_2\source.cpp(66): note: Conversion from integral type to pointer type requires reinterpret_cast, C-style cast or function-style cast
+c:\users\alex\source\repos\homeword_dimo_2\homeword_dimo_2\source.cpp(66): error C2660: 'strcpy_s': function does not take 2 arguments
+  c:\program files (x86)\windows kits\10\include\10.0.17134.0\ucrt\string.h(28): note: see declaration of 'strcpy_s'

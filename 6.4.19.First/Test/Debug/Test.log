@@ -1,0 +1,8 @@
+﻿  Source.cpp
+c:\users\alex\source\repos\6.4.19.first\test\source.cpp(15): error C2652: 'Person': illegal copy constructor: first parameter must not be a 'Person'
+  c:\users\alex\source\repos\6.4.19.first\test\source.cpp(3): note: see declaration of 'Person'
+c:\users\alex\source\repos\6.4.19.first\test\source.cpp(15): error C2333: 'Person::Person': error in function declaration; skipping function body
+c:\users\alex\source\repos\6.4.19.first\test\source.cpp(29): error C2440: 'initializing': cannot convert from 'Person' to 'Person'
+  c:\users\alex\source\repos\6.4.19.first\test\source.cpp(29): note: Cannot copy construct class 'Person' due to ambiguous copy constructors or no available copy constructor
+c:\users\alex\source\repos\6.4.19.first\test\source.cpp(31): error C2664: 'void modify(Person)': cannot convert argument 1 from 'Person' to 'Person'
+  c:\users\alex\source\repos\6.4.19.first\test\source.cpp(31): note: Cannot copy construct class 'Person' due to ambiguous copy constructors or no available copy constructor

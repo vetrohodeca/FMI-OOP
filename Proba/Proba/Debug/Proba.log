@@ -1,0 +1,3 @@
+﻿  Source.cpp
+c:\users\alex\source\repos\proba\proba\source.cpp(7): warning C4930: 'std::ostream write(char *,std::streamsize)': prototyped function not called (was a variable definition intended?)
+  Proba.vcxproj -> C:\Users\Alex\source\repos\Proba\Debug\Proba.exe

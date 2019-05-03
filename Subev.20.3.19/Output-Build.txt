@@ -1,0 +1,4 @@
+﻿1>------ Build started: Project: Subev.20.3.19, Configuration: Debug Win32 ------
+1>Source.cpp
+1>Subev.20.3.19.vcxproj -> C:\Users\Alex\source\repos\Subev.20.3.19\Debug\Subev.20.3.19.exe
+========== Build: 1 succeeded, 0 failed, 0 up-to-date, 0 skipped ==========
