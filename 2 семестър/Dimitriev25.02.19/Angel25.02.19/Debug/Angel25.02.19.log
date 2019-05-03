@@ -1,0 +1,4 @@
+﻿  Source.cpp
+c:\users\alex\source\repos\angel25.02.19\angel25.02.19\source.cpp(15): error C2678: binary '>>': no operator found which takes a left-hand operand of type 'std::ofstream' (or there is no acceptable conversion)
+  c:\users\alex\source\repos\angel25.02.19\angel25.02.19\source.cpp(15): note: could be 'built-in C++ operator>>(bool, int)'
+  c:\users\alex\source\repos\angel25.02.19\angel25.02.19\source.cpp(15): note: while trying to match the argument list '(std::ofstream, int)'

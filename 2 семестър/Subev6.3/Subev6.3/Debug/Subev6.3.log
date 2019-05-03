@@ -1,0 +1,19 @@
+﻿  Source.cpp
+c:\users\alex\desktop\subev6.3\subev6.3\source.cpp(28): error C2146: syntax error: missing ';' before identifier 'distTo0'
+c:\users\alex\desktop\subev6.3\subev6.3\source.cpp(28): error C2146: syntax error: missing ')' before identifier 'p'
+c:\users\alex\desktop\subev6.3\subev6.3\source.cpp(29): error C2143: syntax error: missing ';' before '{'
+c:\users\alex\desktop\subev6.3\subev6.3\source.cpp(29): error C2447: '{': missing function header (old-style formal list?)
+c:\users\alex\desktop\subev6.3\subev6.3\source.cpp(36): error C2146: syntax error: missing ';' before identifier 'point1'
+c:\users\alex\desktop\subev6.3\subev6.3\source.cpp(36): error C2065: 'point1': undeclared identifier
+c:\users\alex\desktop\subev6.3\subev6.3\source.cpp(37): error C2146: syntax error: missing ';' before identifier 'point2'
+c:\users\alex\desktop\subev6.3\subev6.3\source.cpp(37): error C2065: 'point2': undeclared identifier
+c:\users\alex\desktop\subev6.3\subev6.3\source.cpp(38): error C2065: 'point1': undeclared identifier
+c:\users\alex\desktop\subev6.3\subev6.3\source.cpp(39): error C2065: 'point1': undeclared identifier
+c:\users\alex\desktop\subev6.3\subev6.3\source.cpp(40): error C2065: 'point2': undeclared identifier
+c:\users\alex\desktop\subev6.3\subev6.3\source.cpp(41): error C2065: 'point2': undeclared identifier
+c:\users\alex\desktop\subev6.3\subev6.3\source.cpp(42): error C2065: 'point1': undeclared identifier
+c:\users\alex\desktop\subev6.3\subev6.3\source.cpp(43): error C2065: 'point1': undeclared identifier
+c:\users\alex\desktop\subev6.3\subev6.3\source.cpp(45): error C2065: 'point1': undeclared identifier
+c:\users\alex\desktop\subev6.3\subev6.3\source.cpp(45): error C2065: 'point2': undeclared identifier
+c:\users\alex\desktop\subev6.3\subev6.3\source.cpp(46): error C2065: 'point1': undeclared identifier
+c:\users\alex\desktop\subev6.3\subev6.3\source.cpp(47): error C2065: 'point1': undeclared identifier
