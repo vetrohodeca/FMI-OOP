@@ -1,0 +1,5 @@
+﻿  String.cpp
+c:\users\alex\source\repos\dimitriev2homewor1task\dimitriev2homewor1task\string.cpp(33): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+c:\users\alex\source\repos\dimitriev2homewor1task\dimitriev2homewor1task\string.cpp(52): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+c:\users\alex\source\repos\dimitriev2homewor1task\dimitriev2homewor1task\string.cpp(61): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+  Dimitriev2Homewor1Task.vcxproj -> C:\Users\Alex\source\repos\Dimitriev2Homewor1Task\x64\Debug\Dimitriev2Homewor1Task.exe
