@@ -40,7 +40,7 @@ void FlightList::search(size_t id){
 }
 
 void FlightList::write(){
-    std::ofstream out ("Planes.db");
+    std::ofstream out ("Planes.txt");
     out<<this->length<<std::endl;
     for(size_t i = 0;i<this->length;i++){
         out<<this->list[i].getId()<<std::endl;
@@ -53,7 +53,7 @@ void FlightList::write(){
 }
 
 void FlightList::read(){
-    std::ifstream in ("Planes.db");
+    std::ifstream in ("Planes.txt");
     char plane[MAXSIZE], type[MAXSIZE];
     size_t id,numberFlights;
     in>>this->length;
