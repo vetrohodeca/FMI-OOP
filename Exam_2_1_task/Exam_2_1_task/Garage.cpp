@@ -46,41 +46,29 @@ void Garage::CopyFrom(const Garage& other)
 	 }
 	 return *this;
  }
-bool Garage::AddVechicle(Vechicle* vechicle)
+ void Garage::AddVechicle(Vechicle* vechicle)
 {
 	if (capacity == len)
 		resize();
 	vechicleList[len++]=vechicle ;
-	return true;
 }
-bool Garage::addCar(int speed, const char*name)
+void Garage::addCar(int speed, const char*name)
 {
 	Car* c = new Car(speed, name);
 	c->setType(0);
-	if (!AddVechicle(c))
-	{
-		delete c;
-		return false;
-	}
+	AddVechicle(c);
 }
-bool Garage::addTIR(int speed, const char*name)
+void Garage::addTIR(int speed, const char*name)
 {
 	TIR* c = new TIR(speed, name);
 	c->setType(2);
-	if (!AddVechicle(c))
-	{
-		delete c;
-		return false;
-	}
+	AddVechicle(c);
 }
-bool Garage::addBus(int speed, const char*name)
+void Garage::addBus(int speed, const char*name)
 {
 	Bus* c= new Bus(speed, name);
-	if (!AddVechicle(c))
-	{
-		delete c;
-		return false;
-	}
+	c->setType(1);
+	AddVechicle(c);
 }
 int Garage::numberOfSuitableVechicles(int highWay, int speedWay, int slowWay, double time)
 {

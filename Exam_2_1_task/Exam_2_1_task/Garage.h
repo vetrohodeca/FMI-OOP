@@ -12,13 +12,13 @@ private:
 	void resize();
 	void Free();
 	void CopyFrom(const Garage& other);
-	bool AddVechicle(Vechicle* vechicle);
+	void AddVechicle(Vechicle* vechicle);
 public:
 	int numberOfSuitableVechicles(int highWay, int speedWay, int slowWay, double timeInHours);
 	Garage();
 	Garage( Garage& other);
 	Garage& operator=(Garage&other);
-	bool addCar(int speed,const char*name);
-	bool addTIR(int speed, const char*name);
-	bool addBus(int speed, const char*name);
+	void addCar(int speed,const char*name);
+	void addTIR(int speed, const char*name);
+	void addBus(int speed, const char*name);
 };

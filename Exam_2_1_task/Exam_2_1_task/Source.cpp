@@ -7,7 +7,7 @@ int main()
 	garage.addCar(218, "Visokoto naprejenie");
 	garage.addBus(160, "Na Vaseto busa");
 	garage.addTIR(150, "Geely-to");
-	cout<<garage.numberOfSuitableVechicles(161, 0, 0, 1);
+	cout<<garage.numberOfSuitableVechicles(220, 0, 0,1 )<<endl;
 	system("pause");
 	return 0;
 }
