@@ -24,10 +24,10 @@
     <ClCompile Include="Num.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Operation.cpp">
+    <ClCompile Include="BinaryOperation.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="OnePredicat.cpp">
+    <ClCompile Include="UnaryOpration.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
@@ -38,10 +38,10 @@
     <ClInclude Include="Num.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="Operation.h">
+    <ClInclude Include="BinaryOperation.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="OnePredicat.h">
+    <ClInclude Include="UnaryOperation.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

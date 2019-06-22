@@ -1,2 +1,0 @@
-﻿  Source.cpp
-c:\users\alex\source\repos\fmi-oop\subev8.5_virtual\subev8.5_virtual\source.cpp(17): error C3867: 'std::ios_base::eof': non-standard syntax; use '&' to create a pointer to member
