@@ -9,7 +9,8 @@ Garage::Garage()
 void Garage::resize() 
 {
 	Vechicle** save = this->vechicleList;
-	this->vechicleList = new Vechicle*[this->capacity*2];
+	capacity *= 2;
+	this->vechicleList = new Vechicle*[this->capacity];
 	for (int i = 0; i < this->len; i++) {
 		this->vechicleList[i] = save[i];
 	}
@@ -76,31 +77,13 @@ int Garage::numberOfSuitableVechicles(int highWay, int speedWay, int slowWay, do
 	for (size_t i = 0; i < len; i++)
 	{
 		double currTime = 0;
-		if (vechicleList[i]->getType() == 0)// car
+		currTime = highWay / vechicleList[i]->getHighwaySpeed() + 
+			speedWay / vechicleList[i]->getSpeedWaySpeed() +
+			slowWay / vechicleList[i]->getSlowWaysSpeed();
+		if (currTime <= time)
 		{
-			currTime = (highWay + speedWay + slowWay) / (vechicleList[i]->getSpeed());
-			if (currTime <= time)
-			{
-				count++;
-			}
+			count++;
 		}
-		else if (vechicleList[i]->getType() == 1)// bus
-		{
-			currTime = (highWay/vechicleList[i]->getSpeed()+ speedWay / (vechicleList[i]->getSpeed()/2) + slowWay/(vechicleList[i]->getSpeed()/2.5));
-			if (currTime <= time)
-			{
-				count++;
-			}
-		}
-		else if (vechicleList[i]->getType() == 2)//TIR
-		{
-			currTime = (highWay / (vechicleList[i]->getSpeed() / 2)  + speedWay / (vechicleList[i]->getSpeed() / 4) + slowWay / 20);
-			if (currTime <= time)
-			{
-				count++;
-			}
-		}
-		else std::cout << "Error with Vechicle";
 	}
 	return count;
 }

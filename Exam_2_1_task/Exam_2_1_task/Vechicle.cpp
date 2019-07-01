@@ -8,9 +8,7 @@ void Vechicle::CopyFrom(Vechicle& other)
 {
 	this->speed = other.speed;
 	this->type = other.type;
-	int len = strlen(other.name);
-	this->name = new char[len + 1];
-	strcpy(this->name, name);
+	setName(name);
 }
 Vechicle::Vechicle(Vechicle& other)
 {
@@ -33,11 +31,10 @@ Vechicle::Vechicle()
 }
 Vechicle::Vechicle(int speed, const char* name, int type)
 {
+	setName( name);
 	this->type = type;
 	this->speed = speed;
-	int len = strlen(name);
-	this->name = new char[len + 1];
-	strcpy(this->name, name);
+
 }
 double Vechicle::getSpeed() const
 {
@@ -50,4 +47,10 @@ int Vechicle::getType() const
 void Vechicle::setType(int type)
 {
 	this->type = type;
+}
+void Vechicle::setName(const char* name)
+{
+	int len = strlen(name);
+	this->name = new char[len + 1];
+	strcpy(this->name, name);
 }

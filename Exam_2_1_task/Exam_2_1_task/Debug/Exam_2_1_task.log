@@ -1,2 +1,7 @@
-﻿  Source.cpp
+﻿  Garage.cpp
+c:\users\alex\source\repos\fmi-oop\exam_2_1_task\exam_2_1_task\garage.cpp(21): warning C4018: '<': signed/unsigned mismatch
+c:\users\alex\source\repos\fmi-oop\exam_2_1_task\exam_2_1_task\garage.cpp(30): warning C4018: '<': signed/unsigned mismatch
+c:\users\alex\source\repos\fmi-oop\exam_2_1_task\exam_2_1_task\garage.cpp(77): warning C4018: '<': signed/unsigned mismatch
+  Source.cpp
+  Generating Code...
   Exam_2_1_task.vcxproj -> C:\Users\Alex\source\repos\FMI-OOP\Exam_2_1_task\Debug\Exam_2_1_task.exe

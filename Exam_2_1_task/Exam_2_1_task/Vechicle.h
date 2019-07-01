@@ -9,6 +9,7 @@ protected:
 	void CopyFrom( Vechicle& other);
 	void Free();
 public:
+	void setName(const char* name);
 	void setType(int type);
 	int getType() const;
 	double getSpeed() const;
@@ -17,4 +18,8 @@ public:
 	Vechicle( Vechicle& other);
 	Vechicle& operator=( Vechicle& other);// pri virtualni funkcii operator ravno trqbva da vrushta samo referenciq
 	virtual Vechicle* clone() = 0;
+	virtual void setSpeed()=0;
+	virtual double getHighwaySpeed()=0;
+	virtual double getSpeedWaySpeed()=0;
+	virtual double getSlowWaysSpeed()=0;
 }; 

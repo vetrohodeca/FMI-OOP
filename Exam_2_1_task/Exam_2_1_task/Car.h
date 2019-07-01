@@ -8,4 +8,7 @@ public:
 	Car(int speed, const char* name);
 	void setSpeed();
 	Vechicle* clone();
+	double getHighwaySpeed();
+	double getSpeedWaySpeed();
+	double getSlowWaysSpeed();
 };

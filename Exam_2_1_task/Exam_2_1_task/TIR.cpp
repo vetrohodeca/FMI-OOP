@@ -18,3 +18,15 @@ TIR::TIR(int speed, const char*name)
 	this->name = new char[strlen(name) + 1];
 	strcpy(this->name, name);
 }
+double TIR::getHighwaySpeed()
+{
+	return speed / 2;
+}
+double TIR::getSpeedWaySpeed()
+{
+	return speed / 4;
+}
+double TIR::getSlowWaysSpeed()
+{
+	return 20;
+}

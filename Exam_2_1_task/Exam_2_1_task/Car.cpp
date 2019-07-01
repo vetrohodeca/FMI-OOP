@@ -19,3 +19,15 @@ Car::Car(int speed, const char*name)
 	this->name = new char[strlen(name) + 1];
 	strcpy(this->name, name);
 }
+double Car::getHighwaySpeed()
+{
+	return speed;
+}
+double Car::getSpeedWaySpeed()
+{
+	return speed;
+}
+double Car::getSlowWaysSpeed()
+{
+	return speed;
+}
