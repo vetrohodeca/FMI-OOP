@@ -4,12 +4,12 @@ using namespace std;
 class Boat
 {
 private:
-	char*name;
+	char* name;
 public:
-	void setName(const char *name)// must be const
+	void setName(const char* name)// must be const
 	{
 		int len = strlen(name) + 1;
-		this->name = new char[len];
+		this->name = new char[len+1];
 		strcpy_s(this->name, len, name);
 	}
 	char* getName() const
@@ -20,18 +20,18 @@ public:
 	{
 		setName("NO NAME");
 	}
-	Boat(const char*name) // must be const
+	Boat(const char* name) // must be const
 	{
 		setName(name);
 	}
-	Boat(const Boat &other)// диса ми е дeстинция, а адър е това, от което взимаме данните
+	Boat(const Boat& other)// диса ми е дeстинция, а адър е това, от което взимаме данните
 	{
 		int len = strlen(other.name + 1);
-		this->name = new char[len];
+		this->name = new char[len+1];
 		strcpy(this->name, other.name);
 	}
 
-	Boat operator=(const Boat &other)
+	Boat operator=(const Boat& other)
 	{
 		if (this != &other)
 		{
