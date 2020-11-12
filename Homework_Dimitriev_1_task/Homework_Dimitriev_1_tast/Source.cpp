@@ -331,9 +331,9 @@ int main()
 {
 
 	Date data;
-	data = Date(1, 6, 2013);
+	data = Date(23,10, 2020);
 	Date data2;
-	data2 = Date(12, 6, 2017);
+	data2 = Date(24, 10, 2020);
 	data.printDate();
 	data2.printDate();
 	cout << data.checkLeapYear(data)<<endl;
@@ -341,12 +341,12 @@ int main()
 	cout << data.timeToChristmas(data) << endl;
 	cout << data.cmpDate(data, data2) << endl;
 	dateDifferebce(data, data2).printDate();
-	data.NextDay(data);
+	/*data.NextDay(data);
 	data.printDate();
 	data.removeDates(data, 52);
 	data.printDate();
 	data.addDates(data, 33);
-	data.printDate();
+	data.printDate();*/
 	system("pause");
 	return 0;
 }
